@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "cstdlib": "cpp",
+        "vector": "cpp",
+        "xstddef": "cpp",
+        "ostream": "cpp",
+        "xutility": "cpp",
+        "algorithm": "cpp"
+    }
+}
