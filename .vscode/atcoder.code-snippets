@@ -1,0 +1,30 @@
+{
+    "Template": {
+        "prefix": "tmp",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "#define REP(i,s,n) for(int i=s; i<(n); ++i)",
+            "#define ALL(n) begin(n),end(n)",
+            "typedef long long ll;",
+			"const ll INF = numeric_limits<long long>::max();",
+			"",
+            "int main(){",
+            "\t$1",
+			"",
+            "\treturn 0;",
+            "}"
+            ],
+        "description": "template"
+    },
+    "cin_vector_int":{
+        "prefix": "invec",
+        "body":[
+            "int $1;",
+            "vector<int> $2($1);",
+            "REP(i, 0, $1) cin >> $2[i];",
+            "$3"
+        ],
+        "description": "input to vector<int>"
+    }
+}
